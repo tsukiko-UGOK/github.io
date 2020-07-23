@@ -1,4 +1,4 @@
-@media screen and (min-width:850px) {
+@media screen and (min-width:1001px) {
   body {
     margin: 0;
   }
@@ -144,9 +144,9 @@
   
 }
 
-@media screen and (max-width:849px) {
+@media screen and (max-width:1000px) {
   body {
-    background-image: url(../img/backgroundimg.png);
+    background-image: url(img/backgroundimg.png);
     margin: 0;
   }
   
