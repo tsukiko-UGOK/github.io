@@ -1,0 +1,15 @@
+body {
+  height: 6000px;
+}
+
+.goods1 {
+  background-color: #ff6b6b;
+  color: #f7fff7;
+  height: 2500px;
+}
+
+.goods2 {
+  background-color: #ffe66d;
+  color: #1a535c;
+  height: 2500px;
+}

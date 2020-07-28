@@ -1,8 +1,115 @@
-@media screen and (min-width:1001px) {
   body {
     margin: 0;
   }
-  
+
+  #hamnav {
+    top: -300px;
+    position: fixed;
+    width: 100%;
+    background-color: #4ecdc4;
+    z-index: 500;
+    height: 250px;
+    transition: all .5s ease-out 0s;
+    padding: 20px 0;
+  }
+
+  .hamul {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hamli {
+    display: block;
+  }
+
+  .hamli a {
+    color: #fefefe;
+    font-size: 25px;
+    line-height: 65px;
+  }
+
+
+  /* ハンバーガー部分記述 */
+
+  .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 0px 0 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 500;
+    cursor: pointer;
+    background-color: #1a535c;
+    border-radius: 60px;
+    margin: 5px;
+    transition: all .5s ease-out 0s;
+  }
+
+  .hamburger_line {
+    position: absolute;
+    left: 13px;
+    margin-top: 14px;
+    width: 25px;
+    height: 2px;
+    background-color: #fefefe;
+    transition: all .3s;
+  }
+
+  .hamburger_line2 {
+    margin-top: 24px;
+    opacity: 1;
+  }
+
+  .hamburger_line3 {
+    margin-top: 34px;
+  }
+
+
+  /* ハンバーガーが押されたとき */
+
+  .nav_open #hamnav {
+    top: 0;
+  }
+
+  .nav_open .hamburger {
+    background-color: #fefefe;
+  }
+
+  .nav_open .hamburger_line1 {
+    top: 10px;
+    transform: rotate(-45deg);
+    background-color: #222;
+  }
+
+  .nav_open .hamburger_line2 {
+    background-color: #222;
+    left: 30px;
+    opacity: 0;
+  }
+
+  .nav_open .hamburger_line3 {
+    transform: rotate(45deg);
+    background-color: #222;
+    top: -9px;
+  }
+
+
+  /*タブレット・スマホ用ヘッダー終了*/
+
+
+  footer {
+    height: 100px;
+    background-color: #4ecdc4;
+    color: #f7fff7;
+    text-align: center;
+    position: relative;
+    bottom: -800px;
+  }
+
+  /*
+@media screen and (min-width:1001px) {
   #phonehead {
     display: none;
   }
@@ -138,191 +245,89 @@
     padding: 0;
     height: 10%;
     text-align: center;
-    background-color: 1a535c;
+    background-color: 4ecdc4;
     color: f7fff7;
   }
   
 }
+*/
 
-@media screen and (max-width:1000px) {
-  body {
-    background-image: url(img/backgroundimg.png);
-    margin: 0;
-  }
-  
-  #pc_top {
-    display: none;
-  }
-  
-  #phone_top {
-    margin: 1%;
-  }
-
-  .phone {
-    display: none;
-    background-color: transparent;
-  }
-
-  #hamnav {
-    top: -300px;
-    position: fixed;
-    width: 100%;
-    background-color: #4ecdc4;
-    z-index: 500;
-    height: 250px;
-    transition: all .5s ease-out 0s;
-    padding: 20px 0;
-  }
-
-  .hamul {
-    height: 200px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .hamli {
-    display: block;
-  }
-
-  .hamli a {
-    color: #fefefe;
-    font-size: 25px;
-    line-height: 65px;
-  }
+  @media screen and (max-width:5000px) {
 
 
-  /* ハンバーガー部分記述 */
+    #pc_top {
+      display: none;
+    }
 
-  .hamburger {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0px 0px 0 0px;
-    width: 50px;
-    height: 50px;
-    z-index: 500;
-    cursor: pointer;
-    background-color: #1a535c;
-    border-radius: 60px;
-    margin: 5px;
-    transition: all .5s ease-out 0s;
-  }
+    #phone_top {
+      margin: 1%;
+    }
 
-  .hamburger_line {
-    position: absolute;
-    left: 13px;
-    margin-top: 14px;
-    width: 25px;
-    height: 2px;
-    background-color: #fefefe;
-    transition: all .3s;
-  }
-
-  .hamburger_line2 {
-    margin-top: 24px;
-    opacity: 1;
-  }
-
-  .hamburger_line3 {
-    margin-top: 34px;
-  }
+    .phone {
+      display: none;
+      background-color: transparent;
+    }
 
 
-  /* ハンバーガーが押されたとき */
+    .pc {
+      display: none;
+    }
 
-  .nav_open #hamnav {
-    top: 0;
-  }
+    #phone_top {
+      margin-top: 15%;
+    }
 
-  .nav_open .hamburger {
-    background-color: #fefefe;
-  }
+    .phone {
+      display: block;
+    }
 
-  .nav_open .hamburger_line1 {
-    top: 10px;
-    transform: rotate(-45deg);
-    background-color: #222;
-  }
+    .logo {
+      margin: 30% 2% 10%
+    }
 
-  .nav_open .hamburger_line2 {
-    background-color: #222;
-    left: 30px;
-    opacity: 0;
-  }
+    #hamnav {
+      height: 160px;
+    }
 
-  .nav_open .hamburger_line3 {
-    transform: rotate(45deg);
-    background-color: #222;
-    top: -9px;
-  }
+    .hamul {
+      height: 150px;
+    }
+
+    .hamli a {
+      font-size: 15px;
+      line-height: 35px;
+    }
+
+    .catchcopy {
+      width: 80%;
+      font-size: 350%;
+      text-align: center;
+      margin: 10% 10% 30%;
+    }
+
+    .intro {
+      line-height: 400%;
+      margin: 60% 2% 10%;
+      text-align: center;
+    }
+
+    .youtube {
+      text-decoration-line: none;
+      color: f7fff7;
+    }
+
+    .page {
+      height: 50%;
+      background-image: url(../img/closebook.png);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 370%;
+      color: f7fff7;
+    }
 
 
-  /*タブレット・スマホ用ヘッダー終了*/
 
-  .pc {
-    display: none;
   }
-
-  #phone_top {
-    margin-top: 15%;
-  }
-
-  .phone {
-    display: block;
-  }
-  
-  .logo {
-    margin: 30% 2% 10%
-  }
-
-  #hamnav {
-    height: 160px;
-  }
-
-  .hamul {
-    height: 150px;
-  }
-
-  .hamli a {
-    font-size: 15px;
-    line-height: 35px;
-  }
-  
-  .catchcopy {
-    width: 80%;
-    font-size: 350%;
-    text-align: center;
-    margin: 10% 10% 30%;
-  }
-  
-  .intro {
-    line-height: 400%;
-    margin: 60% 2% 10%;
-    text-align: center;
-  }
-  
-  .youtube {
-    text-decoration-line: none;
-    color: f7fff7;
-  }
-  
-  .page {
-    height: 50%;
-    background-image: url(../img/closebook.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 370%;
-    color: f7fff7;
-  }
-  
-  footer {
-    height: 10%;
-    background-color: 1a535c;
-    color: f7fff7;
-    text-align: center;
-  }
-  
-}
