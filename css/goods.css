@@ -6,8 +6,13 @@ body {
   height: 600px;
   text-align: center;
   font-size: 80px;
-  
-  
+  position: relative;
+  bottom: -400px;
+  color: #1a535c;
+}
+
+.under {
+  border-bottom: dashed 3px #1a535c;
 }
 
 .goods1 {
@@ -20,4 +25,26 @@ body {
   background-color: #ffe66d;
   color: #1a535c;
   height: 2500px;
+}
+
+.book1 {
+  font-size: 45px;
+  text-align: left;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin: 0 40px;
+}
+
+.book1hyousi {
+  z-index: 3;
+  position: absolute;
+  left: 110px;
+  bottom: -750px;
+}
+
+.book1ura {
+  z-index: 0;
+  position: absolute;
+  right: 110px;
+  bottom: -700px;
 }
