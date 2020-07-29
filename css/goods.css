@@ -31,87 +31,188 @@ body {
 .book1 {
   font-size: 45px;
   text-align: left;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  margin: 0 40px;
-  margin-bottom: 100px;
+  position: absolute;
+  top: 720px;
+  left: 5%;
 }
 
 .book1hyousi {
   z-index: 3;
-  position: relative;
-  top: -100px;
-  left: 150px;
-  
+  position: absolute;
+  top: 950px;
+  left: 20%;
 }
 
 .book1ura {
   z-index: 0;
-  position: relative;
-  top: -150px;
-  left: 50px;
+  position: absolute;
+  top: 930px;
+  left: 40%;
 }
 
 .goods1naiyou {
   font-size: 30px;
   text-align: right;
-  margin: 0 3%;
-  padding: 0 1%;
   line-height: 90px;
+  position: absolute;
+  top: 190%;
+  right: 10%;
 }
 
 .cartbla {
   z-index: 2;
-  position: relative;
-  left: 100px;
+  position: absolute;
+  top: 250%;
+  left: 10%;
 }
 
 .linkbun1 {
   z-index: 5;
-  position: relative;
   font-size: 25px;
-  top: -100px;
-  left: -250px;
+  position: absolute;
+  top: 260%;
+  left: 10%
+}
+
+.dotted1 {
+  border-bottom: dotted 30px #1a535c;
+  position: absolute;
+  width: 55%;
+  top: 270%;
+  left: 35%;
 }
 
 .se1right {
-  position: relative;
-  top: 100px;
-  left: 50px;
+  position: absolute;
+  top: 290%;
+  right: 30%
 }
 
 .goods1se1 {
-  width: 450px;
+  width: 433px;
   font-size: 20px;
-  position: relative;
-  top: 10px;
-  left: 80px;
+  position: absolute;
+  top: 297%;
+  right: 33.5%
 }
 
 .se1img1 {
-  position: relative;
-  top: -65px;
-  left: 500px;
+  position: absolute;
+  top: 290%;
+  right: 5%;
 }
 
 .se1left {
-  position: relative;
-  top: -30px;
-  left: 250px;
+  position: absolute;
+  top: 350%;
+  left: 30%;
 }
 
 .goods1se2 {
   font-size: 20px;
-  position: relative;
-  top: -130px;
-  left: 350px;
-  width: 500px;
+  width: 200px;
+  position: absolute;
+  top: 355%;
+  left: 40%
 }
 
 .se1img2 {
-  position: relative;
-  top: -250px;
-  left: 60px;
+  position: absolute;
+  top: 345%;
+  left: 5%;
 }
 
 
+.book2 {
+  font-size: 45px;
+  text-align: right;
+  position: absolute;
+  top: 410%;
+  right: 5%;
+}
+
+.book2hyousi {
+  z-index: 3;
+  position: absolute;
+  top: 440%;;
+  right: 20%;
+}
+
+.book2ura {
+  z-index: 0;
+  position: absolute;
+  top: 435%;
+  right: 40%;
+}
+
+.goods2naiyou {
+  font-size: 30px;
+  text-align: left;
+  line-height: 90px;
+  position: absolute;
+  top: 510%;
+  left: 10%;
+}
+
+.cartwhi {
+  z-index: 2;
+  position: absolute;
+  top: 560%;
+  right: 10%;
+}
+
+.linkbun2 {
+  z-index: 5;
+  font-size: 25px;
+  position: absolute;
+  top: 570%;
+  right: 10%;
+}
+
+.dotted2 {
+  border-bottom: dotted 30px #f7fff7;
+  position: absolute;
+  width: 55%;
+  top: 580%;
+  right: 35%;
+}
+
+.se2left {
+  position: absolute;
+  top: 600%;
+  left: 30%;
+}
+
+.goods2se1 {
+  font-size: 20px;
+  width: 400px;
+  position: absolute;
+  top: 607%;
+  left: 35%
+}
+
+.se2img1 {
+  position: absolute;
+  top: 600%;
+  left: 5%;
+}
+
+.se2right {
+  position: absolute;
+  top: 660%;
+  right: 30%
+}
+
+.goods2se2 {
+  width: 433px;
+  font-size: 20px;
+  position: absolute;
+  top: 665%;
+  right: 30%
+}
+
+.se2img2 {
+  position: absolute;
+  top: 660%;
+  right: 5%;
+}
