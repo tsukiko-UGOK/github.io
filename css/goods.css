@@ -29,7 +29,7 @@ body {
 }
 
 .book1 {
-  font-size: 45px;
+  font-size: 60px;
   text-align: left;
   position: absolute;
   top: 720px;
@@ -51,7 +51,7 @@ body {
 }
 
 .goods1naiyou {
-  font-size: 30px;
+  font-size: 45px;
   text-align: right;
   line-height: 90px;
   position: absolute;
@@ -68,10 +68,10 @@ body {
 
 .linkbun1 {
   z-index: 5;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 260%;
-  left: 10%
+  left: 8%
 }
 
 .dotted1 {
@@ -90,10 +90,10 @@ body {
 
 .goods1se1 {
   width: 433px;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
-  top: 297%;
-  right: 33.5%
+  top: 295%;
+  right: 38.5%
 }
 
 .se1img1 {
@@ -109,8 +109,8 @@ body {
 }
 
 .goods1se2 {
-  font-size: 20px;
-  width: 200px;
+  font-size: 30px;
+  width: 300px;
   position: absolute;
   top: 355%;
   left: 40%
@@ -124,7 +124,7 @@ body {
 
 
 .book2 {
-  font-size: 45px;
+  font-size: 60px;
   text-align: right;
   position: absolute;
   top: 410%;
@@ -146,7 +146,7 @@ body {
 }
 
 .goods2naiyou {
-  font-size: 30px;
+  font-size: 45px;
   text-align: left;
   line-height: 90px;
   position: absolute;
@@ -163,10 +163,10 @@ body {
 
 .linkbun2 {
   z-index: 5;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 570%;
-  right: 10%;
+  right: 8%;
 }
 
 .dotted2 {
@@ -184,11 +184,11 @@ body {
 }
 
 .goods2se1 {
-  font-size: 20px;
+  font-size: 30px;
   width: 400px;
   position: absolute;
-  top: 607%;
-  left: 35%
+  top: 605%;
+  left: 39%
 }
 
 .se2img1 {
@@ -205,7 +205,7 @@ body {
 
 .goods2se2 {
   width: 433px;
-  font-size: 20px;
+  font-size: 30px;
   position: absolute;
   top: 665%;
   right: 30%
