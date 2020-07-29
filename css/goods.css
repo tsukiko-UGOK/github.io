@@ -55,14 +55,14 @@ body {
   text-align: right;
   line-height: 90px;
   position: absolute;
-  top: 190%;
+  top: 1550px;
   right: 10%;
 }
 
 .cartbla {
   z-index: 2;
   position: absolute;
-  top: 250%;
+  top: 2000px;
   left: 10%;
 }
 
@@ -70,7 +70,7 @@ body {
   z-index: 5;
   font-size: 30px;
   position: absolute;
-  top: 260%;
+  top: 2070px;
   left: 8%
 }
 
@@ -78,33 +78,33 @@ body {
   border-bottom: dotted 30px #1a535c;
   position: absolute;
   width: 55%;
-  top: 270%;
+  top: 2150px;
   left: 35%;
 }
 
 .se1right {
   position: absolute;
-  top: 290%;
-  right: 30%
+  top: 2300px;
+  right: 30%;
 }
 
 .goods1se1 {
   width: 433px;
   font-size: 30px;
   position: absolute;
-  top: 295%;
-  right: 38.5%
+  top: 2340px;
+  right: 38.5%;
 }
 
 .se1img1 {
   position: absolute;
-  top: 290%;
+  top: 2300px;
   right: 5%;
 }
 
 .se1left {
   position: absolute;
-  top: 350%;
+  top: 2780px;
   left: 30%;
 }
 
@@ -112,13 +112,13 @@ body {
   font-size: 30px;
   width: 300px;
   position: absolute;
-  top: 355%;
+  top: 2820px;
   left: 40%
 }
 
 .se1img2 {
   position: absolute;
-  top: 345%;
+  top: 2760px;
   left: 5%;
 }
 
@@ -127,21 +127,21 @@ body {
   font-size: 60px;
   text-align: right;
   position: absolute;
-  top: 410%;
+  top: 3250px;
   right: 5%;
 }
 
 .book2hyousi {
   z-index: 3;
   position: absolute;
-  top: 440%;;
+  top: 3480px;
   right: 20%;
 }
 
 .book2ura {
   z-index: 0;
   position: absolute;
-  top: 435%;
+  top: 3460px;
   right: 40%;
 }
 
@@ -150,14 +150,14 @@ body {
   text-align: left;
   line-height: 90px;
   position: absolute;
-  top: 510%;
+  top: 4080px;
   left: 10%;
 }
 
 .cartwhi {
   z-index: 2;
   position: absolute;
-  top: 560%;
+  top: 4530px;
   right: 10%;
 }
 
@@ -165,7 +165,7 @@ body {
   z-index: 5;
   font-size: 30px;
   position: absolute;
-  top: 570%;
+  top: 4600px;
   right: 8%;
 }
 
@@ -173,13 +173,13 @@ body {
   border-bottom: dotted 30px #f7fff7;
   position: absolute;
   width: 55%;
-  top: 580%;
+  top: 4680px;
   right: 35%;
 }
 
 .se2left {
   position: absolute;
-  top: 600%;
+  top: 4830px;
   left: 30%;
 }
 
@@ -187,19 +187,19 @@ body {
   font-size: 30px;
   width: 400px;
   position: absolute;
-  top: 605%;
+  top: 4870px;
   left: 39%
 }
 
 .se2img1 {
   position: absolute;
-  top: 600%;
+  top: 4830px;
   left: 5%;
 }
 
 .se2right {
   position: absolute;
-  top: 660%;
+  top: 5310px;
   right: 30%
 }
 
@@ -207,12 +207,12 @@ body {
   width: 433px;
   font-size: 30px;
   position: absolute;
-  top: 665%;
+  top: 5350px;
   right: 30%
 }
 
 .se2img2 {
   position: absolute;
-  top: 660%;
+  top: 5290;
   right: 5%;
 }
