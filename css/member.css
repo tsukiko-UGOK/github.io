@@ -1,91 +1,32 @@
-.char {
-  top: -3000px;
-  left: 10%;
+.midashi {
+  height: 600px;
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  bottom: -400px;
+  color: #1a535c;
+}
+
+.under {
+  border-bottom: dashed 3px #1a535c;
+}
+
+.group {
+  font-size: 65px;
+  position: absolute;
+  top: 900px;
+  right: 20%;
+  transform: translate(25%);
+  color: #1a535c;
+}
+
+.groupcon {
+  font-size: 45px;
+  line-height: 110px;
   width: 80%;
-  height: 80%;
-  margin: 1.5em auto 0;
-  padding:10px 10px;
-  z-index: 500;
-  position: fixed;
-  cursor: pointer;
-  transition: all .7s ease-out 0s;
-}
-
-#over_lay {
-  top: -3000px;
-  width: 100%;
-  height: 100%;
-  z-index: 400;
-  position: fixed;
-  cursor: pointer;
-  transition: all .7s ease-out 0s;
-  background-color: snow;
-}
-
-#na_char {
-  background-color: aqua;
-}
-
-#br_char {
-  background-color: crimson;  
-}
-
-#sy_char {
-  background-color: chartreuse;
-}
-
-#kn_char {
-  background-color: dodgerblue;  
-}
-
-#sm_char {
-  background-color: blueviolet;  
-}
-
-#kr_char {
-  background-color: yellow;  
-}
-
-.na_open #na_char {
-  top: 5%;
-  left: 10%;
-}
-
-.br_open #br_char {
-  top: 5%;
-  left: 10%;
-}
-
-.sy_open #sy_char {
-  top: 5%;
-  left: 10%;
-}
-
-.kn_open #kn_char {
-  top: 5%;
-  left: 10%;
-}
-
-.sm_open #sm_char{
-  top: 5%;
-  left: 10%;
-}
-
-.kr_open #kr_char{
-  top: 5%;
-  left: 10%;
-}
-
-.ila {
-  margin:6% 2%;
-  display: inline-block;
-  width: 40%;
-  float: left;
-}
-
-.str {
-  display: inline-block;
-  margin: 10% 2%;
-  font-size: 70%;
-  line-height: 300%;
+  position: absolute;
+  top: 1100px;
+  right: 20%;
+  transform: translate(15%);
+  color: #1a535c;
 }
