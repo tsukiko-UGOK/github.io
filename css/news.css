@@ -1,0 +1,27 @@
+.midashi {
+  height: 600px;
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  bottom: -400px;
+  color: #1a535c;
+}
+
+.under {
+  border-bottom: dashed 3px #1a535c;
+}
+
+li {
+  list-style: none;
+  font-size: 50px;
+  color: #1a535c;
+  width: 500px;
+}
+
+#list1,#lit2,#list3,#list4,#list5,#list6,#list7,#list8,#list9,#list10,#list11,#list12,#list13,#list14,#list15,#list16,#list17,#list18 {
+  text-align: center;
+}
+
+.button,.content {
+  display: inline;
+}
