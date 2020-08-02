@@ -1,3 +1,7 @@
+body {
+  width: 100%
+}
+
 .midashi {
   height: 600px;
   text-align: center;
@@ -13,15 +17,160 @@
 
 li {
   list-style: none;
-  font-size: 50px;
   color: #1a535c;
-  width: 500px;
+  width: 600px;
+  margin-top: 40px;
+  padding: 10px;
 }
 
-#list1,#lit2,#list3,#list4,#list5,#list6,#list7,#list8,#list9,#list10,#list11,#list12,#list13,#list14,#list15,#list16,#list17,#list18 {
+.data {
+  color: #4ecdc4;
+  font-size: 55px;
+}
+
+.text {
+  color: #1a535c;
+  font-size: 60px;
+}
+
+#list1,#list2,#list3,#list4,#list5,#list6,#list7,#list8,#list9,#list10,#list11,#list12,#list13,#list14,#list15,#list16,#list17,#list18 {
   text-align: center;
 }
 
-.button,.content {
-  display: inline;
+.button {
+  width: 600px;
+  background: rgba(247,255,247,0.5);
+  
+  height: 600px;
+}
+
+.content {
+  font-size: 40px;
+  z-index: 2;
+}
+
+#list1 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 800px;
+}
+
+#list2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 800px;
+}
+
+#list3 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 1600px;
+}
+
+#list4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 1600px;
+}
+
+#list5 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 2400px;
+}
+
+#list6 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 2400px;
+}
+
+#list7 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 3200px;
+}
+
+#list8 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 3200px;
+}
+
+#list9 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 4000px;
+}
+
+#list10 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 4000px;
+}
+
+#list11 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 4800px;
+}
+
+#list12 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 4800px;
+}
+
+#list13 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 5600px;
+}
+
+#list14 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 5600px;
+}
+
+#list15 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 6400px;
+}
+
+#list16 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 6400px;
+}
+
+#list17 {
+  position: absolute;
+  right: 50%;
+  transform: translate(-5%);
+  top: 7200px;
+}
+
+#list18 {
+  position: absolute;
+  left: 50%;
+  transform: translate(5%);
+  top: 7200px;
 }
