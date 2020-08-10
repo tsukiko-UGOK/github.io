@@ -1,5 +1,12 @@
 body {
-  height: 5000px;
+  height: 6000px;
+}
+
+footer {
+  top: 5500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .back {
@@ -195,15 +202,45 @@ body {
 
 .faceall {
   position: absolute;
-  width: 1100px;
+  width: 100%
   top: 200px;
   left: 50%;
   transform: translate(-50%);
 }
 
+.face1,.hukidashi1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-240%);
+}
+
+.face2,.hukidashi2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-145%);
+}
+
+.face3,.hukidashi3 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.face4,.hukidashi4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(45%);
+}
+
+.face5,.hukidashi5 {
+  position: absolute;
+  left: 50%;
+  transform: translate(140%);
+}
+
 .hukidashiall {
   position: absolute;
-  width: 1100px;
+  width: 100%;
   top: 400px;
   left: 50%;
   transform: translate(-50%);
@@ -220,27 +257,27 @@ body {
 
 .serif1 {
   left: 50%;
-  transform: translate(-370%);
+  transform: translate(-320%);
 }
 
 .serif2 {
   left: 50%;
-  transform: translate(-218%);
+  transform: translate(-185%);
 }
 
 .serif3 {
   left: 50%;
-  transform: translate(-68%);
+  transform: translate(-50%);
 }
 
 .serif4 {
   left: 50%;
-  transform: translate(90%);
+  transform: translate(88%);
 }
 
 .serif5 {
   left: 50%;
-  transform: translate(240%);
+  transform: translate(220%);
 }
 
 .twitter_link {
@@ -263,7 +300,8 @@ body {
   position: absolute;
   top: 5000px;
   left: 10%;
-  transform: translate(-10%)
+  transform: translate(-10%);
+  width: 450px;
 }
 
 .na_link {
