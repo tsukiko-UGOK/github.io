@@ -1,3 +1,16 @@
+body {
+  height: 5000px;
+}
+
+.back {
+  background-color: #ff6b6b;
+  position: absolute;
+  width: 100%;
+  top: 650px;
+  height: 2500px;
+  
+}
+
 .midashi {
   height: 600px;
   text-align: center;
@@ -12,21 +25,285 @@
 }
 
 .group {
-  font-size: 65px;
+  font-size: 60px;
+  width: 470px;
   position: absolute;
-  top: 900px;
-  right: 20%;
-  transform: translate(25%);
+  right: 10%;
+  top: 700px;
+  transform: translate(10%);
   color: #1a535c;
 }
 
 .groupcon {
-  font-size: 45px;
-  line-height: 110px;
-  width: 80%;
+  font-size: 50px;
+  width: 85%;
   position: absolute;
-  top: 1100px;
-  right: 20%;
-  transform: translate(15%);
+  top: 900px;
+  right: 10%;
+  transform: translate(5%);
+  line-height: 120px;
   color: #1a535c;
+}
+
+.member_linkstr {
+  font-size: 50px;
+  position: absolute;
+  top: 2300;
+  width: 650px;
+  left: 10%;
+  transform: translate(-10%);
+  color: #1a535c;
+}
+
+.na_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(-240%);
+}
+
+.br_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(-140%);
+}
+
+.kn_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(-60%);
+}
+
+.sm_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(-10%);
+}
+
+.kr_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(50%)
+}
+
+.sy_link_img {
+  position: absolute;
+  top: 2500px;
+  left: 50%;
+  transform: translate(70%);
+}
+
+.cf {
+  font-size: 55px;
+  color: #1a535c;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  z-index: 2;
+  
+}
+
+.top_right .cf {
+  left: 10%;
+  transform: translate(-10%);
+}
+
+.top_left .cf {
+  right: 10%;
+  transform: translate(5%)
+}
+
+.name {
+  font-size: 70px;
+  color: #1a535c;
+  position: absolute;
+  top: 850px;
+  z-index: 2;
+}
+
+.top_right .name {
+  left: 18%;
+  transform: translate(-5%);  
+}
+
+.top_left .name {
+  right: 18%;
+  transform: translate(-5%);
+}
+
+.stimg {
+  position: absolute;
+  top: 650px;
+  z-index: 1;
+}
+
+.top_right .stimg {
+  right: 15%;
+  transform: translate(5%);  
+}
+
+.top_left .stimg {
+  left: 10%;
+  transform: translate(-10%);
+}
+
+.serif {
+  font-size: 55px;
+  color: #4ecdc4;
+  width: 500px;
+  position: absolute;
+  top: 1700px;
+  left: 10%;
+  transform: translate(-10%);
+}
+
+.prof {
+  font-size: 45px;
+  color: #1a535c;
+  position: absolute;
+  width: 650px;
+  line-height: 100px;
+  top: 2000px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.member_details {
+  font-size: 45px;
+  color: #1a535c;
+  width: 90%;
+  position: absolute;
+  top: 2600px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.impression {
+  font-size: 40px;
+  color: #1a535c;
+  position: absolute;
+  width: 100%;
+  top: 3500px;
+  left: 10%;
+  transform: translate(-10%);
+}
+
+.faceall {
+  position: absolute;
+  width: 1100px;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hukidashiall {
+  position: absolute;
+  width: 1100px;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.serif1,.serif2,.serif3,.serif4,.serif5 {
+  color: #f7fff7;
+  position: absolute;
+  top: 440px;
+  width: 140px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.serif1 {
+  left: 50%;
+  transform: translate(-370%);
+}
+
+.serif2 {
+  left: 50%;
+  transform: translate(-218%);
+}
+
+.serif3 {
+  left: 50%;
+  transform: translate(-68%);
+}
+
+.serif4 {
+  left: 50%;
+  transform: translate(90%);
+}
+
+.serif5 {
+  left: 50%;
+  transform: translate(240%);
+}
+
+.twitter_link {
+  position: absolute;
+  top: 4500px;
+  left: 50%;
+  transform: translate(-130%);
+}
+
+.youtube_link {
+  position: absolute;
+  top: 4500px;
+  left: 50%;
+  transform: translate(50%);
+}
+
+.linkstr {
+  font-size: 50px;
+  color: #1a535c;
+  position: absolute;
+  top: 5000px;
+  left: 10%;
+  transform: translate(-10%)
+}
+
+.na_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(-220%);
+}
+
+.br_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(-150%)
+}
+
+.kn_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(-80%);
+}
+
+.sm_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(-10%);
+}
+
+.kr_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(60%);
+}
+
+.sy_link {
+  position: absolute;
+  top: 5200px;
+  left: 50%;
+  transform: translate(130%);
 }

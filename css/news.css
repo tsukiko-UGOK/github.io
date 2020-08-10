@@ -1,5 +1,14 @@
 body {
-  width: 100%
+  width: 100%;
+  height: 8000px;
+}
+
+footer {
+  top: 7500px;
+}
+
+ul {
+  background-color: #ffe66d;
 }
 
 .midashi {
@@ -15,11 +24,16 @@ body {
   border-bottom: dashed 3px #1a535c;
 }
 
+ul {
+  padding: 0
+}
+
 main li {
   list-style: none;
   color: #1a535c;
   margin-top: 40px;
   padding: 10px;
+  margin-left:20px 
 }
 
 .data {
@@ -42,7 +56,7 @@ main li {
 
 #list1,#list2,#list3,#list4,#list5,#list6,#list7,#list8,#list9,#list10,#list11,#list12,#list13,#list14,#list15,#list16,#list17,#list18 {
   display: inline-block;
-  width: 98%;
+  width: 95%;
 }
 
 .button {

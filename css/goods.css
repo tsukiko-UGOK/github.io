@@ -3,6 +3,10 @@ body {
   width: 100%;
 }
 
+footer {
+  top: 5500px;
+}
+
 .midashi {
   height: 600px;
   text-align: center;
